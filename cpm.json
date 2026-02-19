@@ -13,7 +13,7 @@
             "https": "https://github.com/neacsum/example_cool_A.git",
             "git": "git@github.com:neacsum/example_cool_A.git",
             
-            "_comment": "Sample post build command",
+            "_comment": "Sample post build command - a small change",
             "post": [
               {"cmd": "echo", "args": ["$DEV_ROOT", "current directory is %CD%"]}
             ]
