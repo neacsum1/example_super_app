@@ -8,8 +8,8 @@
 
 int main (int argc, char** argv)
 {
-  long long n1 = ackermann (3, 10);
-  long long n2 = faster_ackermann (3, 10);
+  long long n1 = ackermann (3, 11);
+  long long n2 = faster_ackermann (3, 11);
   char str1[256], str2[256];
   *str1 = *str2 = 0;
 
@@ -18,5 +18,5 @@ int main (int argc, char** argv)
   if (!strcmp (str1, str2))
     printf ("Both function give the same result\n");
 
-  printf ("ack(3,10) is %s\n", str1);
+  printf ("ack(3,11) is %s\n", str1);
 }
