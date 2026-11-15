@@ -20,7 +20,7 @@ jobs:
           url: https://github.com/neacsum/cpm/releases/latest/download/cpm.exe
       
       - name: Build
-        run: cpm -v -u https://github.com/neacsum/example_super_app
+        run: cpm -v -u https://github.com/neacsum1/example_super_app
         
       - name: Run app
         shell: cmd
