@@ -25,7 +25,7 @@ jobs:
           url: https://github.com/neacsum/cpm/releases/latest/download/cpm.exe
       
       - name: Build
-        run: cpm -v
+        run: cpm -v super_app
         
       - name: Run app
         shell: cmd
